@@ -5,7 +5,7 @@
 "features": [
 { "type": "Feature", "properties": { "id": 1, "��������": "��������" }, "geometry": { "type": "Point", "coordinates": [ 55.742121627786872, 52.782948618381141 ] } },
 { "type": "Feature", "properties": { "id": 2, "��������": "������" }, "geometry": { "type": "Point", "coordinates": [ 55.767761024385237, 53.013703187766389 ] } },
-{ "type": "Feature", "properties": { "id": 3, "��������": "���" }, "geometry": { "type": "Point", "coordinates": [ 55.878865076311463, 54.876832673913938 ] } },
+{ "type": "Feature", "properties": { "id": 3, "��������": "���" }, "geometry": { "type": "Point", "coordinates": [ 54.7430600, 55.9677900 ] } },
 { "type": "Feature", "properties": { "id": 4, "��������": "�����������" }, "geometry": { "type": "Point", "coordinates": [ 55.784853955450806, 53.936721465307379 ] } },
 { "type": "Feature", "properties": { "id": 5, "��������": "�������" }, "geometry": { "type": "Point", "coordinates": [ 55.913050938442609, 53.697420430389343 ] } },
 { "type": "Feature", "properties": { "id": 6, "��������": "������������" }, "geometry": { "type": "Point", "coordinates": [ 55.793400420983595, 55.338341812684433 ] } },

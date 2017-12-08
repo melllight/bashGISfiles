@@ -5,6 +5,7 @@
 		<link rel="stylesheet" href="https://openlayers.org/en/v4.4.2/css/ol.css" type="text/css">
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<script src="https://openlayers.org/en/v4.4.2/build/ol.js"></script>
+    <script type="text/javascript" src="places.js"></script>
 
      <style>
       .rotate-north {
@@ -65,18 +66,6 @@
 
 		<script type="text/javascript">
       var mapLayerOn = true;
-
-      var places = [ //Базочка данных для городов в поиске
-        'Центр',
-        'Уфа',
-        'Иглино'
-      ];
-
-			var savedCenter = [ //Каждый город - свои координаты
-        ol.proj.fromLonLat([55.9736, 54.7359]),
-        ol.proj.fromLonLat([55.972055, 54.738762]),
-        ol.proj.fromLonLat([56.394369, 54.818048]),
-      ];
 
       //Инициализация массива для нескольких слоев
        var styles = [
@@ -164,7 +153,6 @@
 
        function flyTo(location, done) {
         var duration = 2000;
-        var zoom = view.getZoom();
         var parts = 2;
         var called = false;
         function callback(complete) {
@@ -181,13 +169,7 @@
           center: location,
           duration: duration
         }, callback);
-        view.animate({
-          zoom: zoom - 1,
-          duration: duration / 2
-        }, {
-          zoom: zoom,
-          duration: duration / 2
-        }, callback);
+        
       }
 
       //Доп код для выборки слоев - тут код для самой кнопки

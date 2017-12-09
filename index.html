@@ -206,8 +206,9 @@
       //Код для кнопки поиска
       find_place.onclick = function() {
         var place = search.value;
+	var newPlace = place.toLowerCase();
         for (let i = 0; i < places.length; i++) {
-          if(places[i] === place) var coordinate = savedCenter[i];
+          if(places[i] === newPlace) var coordinate = savedCenter[i];
         }
         flyTo(coordinate, function() {});
       };

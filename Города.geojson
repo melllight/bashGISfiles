@@ -3,7 +3,7 @@
 "name": "Города",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "id": 1, "��������": "��������" }, "geometry": { "type": "Point", "coordinates": [ 55.9720554, 54.7387621 ] } },
+{ "type": "Feature", "properties": { "id": 1, "��������": "��������" }, "geometry": { "type": "Point", "coordinates": [ 55.742121627786872, 52.782948618381141 ] } },
 { "type": "Feature", "properties": { "id": 2, "��������": "������" }, "geometry": { "type": "Point", "coordinates": [ 55.767761024385237, 53.013703187766389 ] } },
 { "type": "Feature", "properties": { "id": 3, "��������": "���" }, "geometry": { "type": "Point", "coordinates": [ 55.878865076311463, 54.876832673913938 ] } },
 { "type": "Feature", "properties": { "id": 4, "��������": "�����������" }, "geometry": { "type": "Point", "coordinates": [ 55.784853955450806, 53.936721465307379 ] } },

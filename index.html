@@ -206,11 +206,12 @@
       //Код для кнопки поиска
       find_place.onclick = function() {
         var place = search.value;
-	var newPlace = place.toLowerCase();
         for (let i = 0; i < places.length; i++) {
-          if(places[i] === newPlace) var coordinate = savedCenter[i];
+          if(places[i] === place.toLowerCase()) var coordinate = savedCenter[i];
         }
+	      if(coordinate !== null)
         flyTo(coordinate, function() {});
+	      else console.log(place + ' is not support, sorry');
       };
 
       //Код для кнопок включения-выключения слоя

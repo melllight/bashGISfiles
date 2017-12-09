@@ -165,12 +165,13 @@
             done(complete);
           }
         }
+	       console.log(zoom);
         view.animate({
           center: location,
           duration: duration
         }, callback);
-        view.animate({
-          zoom: 12,
+        view.animate({ 
+          zoom: 16,
           duration: duration
         }, callback);
       }

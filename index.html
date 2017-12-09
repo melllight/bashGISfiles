@@ -155,6 +155,7 @@
         var duration = 2000;
         var parts = 2;
         var called = false;
+	var zoom = view.getZoom();
         function callback(complete) {
           --parts;
           if (called) {
@@ -171,7 +172,7 @@
           duration: duration
         }, callback);
         view.animate({ 
-          zoom: 15,
+          zoom: zoom * 2,
           duration: duration
         }, callback);
       }

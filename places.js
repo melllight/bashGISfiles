@@ -14,7 +14,6 @@
 ];
 
 var savedCenter = [ //Каждый город - свои координаты
-  ol.proj.fromLonLat([55.972055, 54.738762]),
   ol.proj.fromLonLat([55.920565, 53.393995]),
   ol.proj.fromLonLat([55.935712, 53.631118]),
  ol.proj.fromLonLat([56.051519, 53.425118]),

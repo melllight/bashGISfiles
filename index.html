@@ -171,6 +171,8 @@
           center: location,
           duration: duration
         }, callback);
+	       
+	if(zoom < 8)
         view.animate({ 
           zoom: zoom * 1.2,
           duration: duration
